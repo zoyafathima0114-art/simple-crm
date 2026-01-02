@@ -1,0 +1,61 @@
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 240px;
+    background: #ffffff;
+    border-right: 1px solid #e5e7eb;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo / Title */
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 30px;
+}
+
+/* Navigation */
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar-link {
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    background: #f1f5f9;
+}
+
+.sidebar-link.active {
+    background: #e0e7ff;
+    color: #1e40af;
+}
+
+/* Logout */
+.sidebar-footer {
+    margin-top: auto;
+}
+
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #fee2e2;
+    color: #991b1b;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+}
+
+.logout-btn:hover {
+    background: #fecaca;
+}
